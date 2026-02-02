@@ -1,0 +1,191 @@
+    /* TÍTULO */
+.titulo {
+    width: auto;
+    height: 150px;
+    background-color: rgb(177, 11, 177);
+    border: 5px solid black;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    box-shadow: 6px 6px 6px gray;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.titulo-box {
+    width: 600px;
+    height: 75px;
+    background-color: chocolate;
+    border: 5px solid black;
+    border-radius: 15px;
+    box-shadow: 6px 6px 6px rgb(95, 6, 58);
+    text-align: center;
+}
+
+    /* PRIMEIRO CONTAINER */
+.Icontainer {
+    width: auto;
+    height: 200px;
+    display: flex;
+    background-color: aqua;
+    border: 5px solid black;
+    border-radius: 15px;
+    box-shadow: 6px 6px 6px gray;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.I-Ibox, .I-IIbox, .I-IIIbox {
+    width: 200px;
+    height: 100px;
+    background-color: red;
+    border: 5px solid black;
+    border-radius: 15px;
+    box-shadow: 6px 6px 6px rgb(0, 100, 100);
+}
+
+    /* CONTAINER PAI E OS FILHOS (SEGUNDO E TERCEIRO CONTAINER) */
+.container-pai {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.IIcontainer {
+    width: 300px;
+    height: 600px;
+    display: flex;
+    flex: 0 0 300px;
+    flex-direction: column;
+    background-color: rgb(0, 255, 42);
+    border: 5px solid black;
+    border-radius: 15px;
+    box-shadow: 6px 6px 6px gray;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.II-Ibox, .II-IIbox, .II-IIIbox {
+    width: 250px;
+    height: 100px;
+    background-color: rgb(0, 26, 255);
+    border: 5px solid black;
+    border-radius: 15px;
+    box-shadow: 6px 6px 6px rgb(7, 100, 57);
+}
+
+.IIIcontainer {
+    width: 500px;
+    height: 620px;
+    flex: 1;
+    min-width: 0;
+    display: flex;
+    background-color: rgb(255, 0, 140);
+    border: 5px solid black;
+    border-radius: 15px;
+    box-shadow: 6px 6px 6px gray;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.III-Ibox, .III-IIbox, .III-IIIbox {
+    width: 350px;
+    height: 550px;
+    background-color: rgb(0, 26, 255);
+    border: 5px solid black;
+    border-radius: 15px;
+    box-shadow: 6px 6px 6px rgb(122, 5, 40);
+}
+
+    /* SEGUNDO CONTAINER PAI COM FILHOS (QUARTO, QUINTO E SEXTO CONTAINER) */
+
+.container-paiII {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.IVcontainer {
+    width: 300px;
+    height: 600px;
+    display: flex;
+    flex: 2;
+    flex-direction: column;
+    background-color: rgb(251, 255, 0);
+    border: 5px solid black;
+    border-radius: 15px;
+    box-shadow: 6px 6px 6px gray;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.IV-Ibox, .IV-IIbox, .IV-IIIbox {
+    width: 250px;
+    height: 100px;
+    background-color: rgb(0, 26, 255);
+    border: 5px solid black;
+    border-radius: 15px;
+    box-shadow: 6px 6px 6px rgb(89, 117, 10);
+}
+
+.Vcontainer {
+    width: 300px;
+    height: 600px;
+    display: flex;
+    flex: 5;
+    flex-direction: column;
+    background-color: rgb(87, 19, 19);
+    border: 5px solid black;
+    border-radius: 15px;
+    box-shadow: 6px 6px 6px gray;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.V-Ibox, .V-IIbox, .V-IIIbox {
+    width: 650px;
+    height: 100px;
+    background-color: rgb(0, 26, 255);
+    border: 5px solid black;
+    border-radius: 15px;
+    box-shadow: 6px 6px 6px rgb(56, 14, 14);
+}
+
+.VIcontainer {
+    width: 300px;
+    height: 600px;
+    display: flex;
+    flex: 2;
+    flex-direction: column;
+    background-color: rgb(245, 6, 6);
+    border: 5px solid black;
+    border-radius: 15px;
+    box-shadow: 6px 6px 6px gray;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.VI-Ibox, .VI-IIbox, .VI-IIIbox {
+    width: 250px;
+    height: 100px;
+    background-color: rgb(0, 26, 255);
+    border: 5px solid black;
+    border-radius: 15px;
+    box-shadow: 6px 6px 6px rgb(95, 20, 6);
+}
